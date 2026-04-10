@@ -1,0 +1,4 @@
+Este es un mensaje de ejemplo para demostrar el cifrado con SecureVault.
+Puede contener cualquier texto en formato UTF-8, incluyendo caracteres especiales: ñ, á, é, ü.
+El sistema garantizará su confidencialidad mediante AES-256-CBC
+y su integridad mediante HMAC-SHA256.

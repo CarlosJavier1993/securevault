@@ -116,10 +116,7 @@ CASO 3 — Detección de alteración del paquete cifrado
 ### Cifrar un archivo `.txt`
 
 ```bash
-python main.py cifrar \
-  --entrada examples/mensaje_prueba.txt \
-  --salida  salida/mensaje.enc \
-  --clave   "mi_passphrase_segura"
+python main.py cifrar --entrada examples/mensaje_prueba.txt --salida salida/mensaje.enc --clave "mi_passphrase_segura"
 ```
 
 **Salida esperada:**
@@ -142,10 +139,8 @@ El archivo `.enc` contiene el paquete en Base64 con el siguiente layout interno:
 ### Descifrar un archivo `.enc`
 
 ```bash
-python main.py descifrar \
-  --entrada salida/mensaje.enc \
-  --salida  salida/mensaje_recuperado.txt \
-  --clave   "mi_passphrase_segura"
+python main.py descifrar --entrada salida/mensaje.enc --salida salida/mensaje_recuperado.txt --clave "mi_passphrase_segura"
+
 ```
 
 **Salida esperada:**
