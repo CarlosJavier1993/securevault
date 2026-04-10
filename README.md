@@ -237,7 +237,9 @@ tests/test_securevault.py::TestValidacionEntradas::test_hmac_con_datos_vacios   
 
 ## 👥 Autores
 
-Desarrollado como proyecto académico para el curso de **Seguridad Informática**.
+Desarrollado como proyecto académico para el curso de **Seguridad Informática** por:
+* Carlos Javier Ramos Corredor
+* Willian Ferney Lozada Garcia
 
 ---
 
